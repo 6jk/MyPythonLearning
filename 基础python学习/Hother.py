@@ -43,5 +43,3 @@ assert len(mylist) >= 1
 mylist.pop()
 
 assert len(mylist) >= 1
-
-#装饰器
