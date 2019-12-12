@@ -23,3 +23,15 @@ while True:
     print(line,end = '')
 
 f.close()
+
+# try:
+#     f = open('/path/to/file', 'r')
+#      print(f.read())
+# finally: 
+#     if f:
+#         f.close()
+
+
+
+# with open('/path/to/file','r') as f:
+#     print(f.read())

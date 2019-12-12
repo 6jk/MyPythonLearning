@@ -20,6 +20,8 @@ except IOError:
     print('Could not find file poem.txt')
 except KeyboardInterrupt:
     print('You cancelled the reading from the file')
+else:
+    print('no error')
 finally:
     if f:
         f.close()
